@@ -231,7 +231,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out" name="out_poc">
       <column comment="" key="false" length="20" name="nom_nome_completo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="18" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="" type="id_Long" originalLength="18" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="num_cep" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="21" usefulColumn="true"/>
@@ -241,7 +241,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out_poc">
         <mapperTableEntries name="nom_nome_completo" expression="row2.nom_nome +' '+  row2.nom_sobrenome " type="id_String" nullable="true"/>
-        <mapperTableEntries name="num_cpf" expression="Integer.parseInt(row2.num_cpf) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="num_cpf" expression="Long.parseLong(row2.num_cpf) " type="id_Long" nullable="true"/>
         <mapperTableEntries name="dtc_data_nascimento" expression="row2.dtc_data_nascimento != null? TalendDate.parseDate(&quot;dd/MM/yyyy&quot;,row2.dtc_data_nascimento):null " type="id_Date" nullable="true"/>
         <mapperTableEntries name="num_cep" expression="row2.num_cep.replaceAll(&quot;[-+=*&amp;amp;%$#@!_]'&quot;, &quot;&quot;) " type="id_String" nullable="true"/>
         <mapperTableEntries name="dtc_carga" expression="row2.dtc_carga" type="id_Date" nullable="true"/>
@@ -324,14 +324,14 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out" name="tMysqlOutput_1">
       <column comment="" key="false" length="20" name="nom_nome_completo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="18" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="BIGINT" type="id_Long" originalLength="18" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="num_cep" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="21" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="out" name="REJECT">
       <column comment="" key="false" length="20" name="nom_nome_completo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="18" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="BIGINT" type="id_Long" originalLength="18" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="num_cep" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="21" usefulColumn="true"/>
