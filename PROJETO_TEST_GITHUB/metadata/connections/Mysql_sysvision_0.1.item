@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ma2T0GitEeee2b4ubGzgzQ" name="Mysql_sysvision" id="_UMH5kGitEeee2b4ubGzgzQ" label="Mysql_sysvision" dataPackage="_nDlHwGitEeee2b4ubGzgzQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://169.46.12.59:3306/talend_poc?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="talend" Password="3TTs0tss1/JwbBYGaEPUPw==" ServerName="169.46.12.59" DatasourceName="" FileFieldName="" SID="talend_poc" SqlSynthax="SQL sintaxe" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_mbAE0GitEeee2b4ubGzgzQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_mb41oGitEeee2b4ubGzgzQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_mcVhkGitEeee2b4ubGzgzQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_mcVhkWitEeee2b4ubGzgzQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_mcVhkmitEeee2b4ubGzgzQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_mcVhk2itEeee2b4ubGzgzQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_mcVhlGitEeee2b4ubGzgzQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_mcVhlWitEeee2b4ubGzgzQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_mu0YsGitEeee2b4ubGzgzQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_mu0YsWitEeee2b4ubGzgzQ" tag="DB ProductVersion" value="5.7.18"/>
+    <taggedValue xmi:id="_mu0YsmitEeee2b4ubGzgzQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_mbAE0WitEeee2b4ubGzgzQ" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_nDlHwGitEeee2b4ubGzgzQ" name="talend_poc" dataManager="_ma2T0GitEeee2b4ubGzgzQ"/>
+</xmi:XMI>
