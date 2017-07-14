@@ -204,7 +204,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generate according to input schema and output schema&#xD;&#xA;output_row.nom_nome = input_row.nom_nome;&#xD;&#xA;output_row.nom_sobrenome = input_row.nom_sobrenome;&#xD;&#xA;output_row.num_cpf = input_row.num_cpf;&#xD;&#xA;output_row.dtc_data_nascimento = input_row.dtc_data_nascimento;&#xD;&#xA;output_row.num_cep = input_row.num_cep.replaceAll(&quot;[-+=*&amp;amp;%$#@!_]'&quot;, &quot;&quot;);&#xD;&#xA;output_row.dtc_carga = input_row.dtc_carga;&#xD;&#xA;System.out.println(input_row.num_cep);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generate according to input schema and output schema&#xD;&#xA;output_row.nom_nome = input_row.nom_nome;&#xD;&#xA;output_row.nom_sobrenome = input_row.nom_sobrenome;&#xD;&#xA;output_row.num_cpf = input_row.num_cpf;&#xD;&#xA;output_row.dtc_data_nascimento = input_row.dtc_data_nascimento;&#xD;&#xA;output_row.num_cep.replaceAll(&quot;[-+=*&amp;amp;%$#@!_]'&quot;, &quot;&quot;) = input_row.num_cep;&#xD;&#xA;output_row.dtc_carga = input_row.dtc_carga;&#xD;&#xA;System.out.println(input_row.num_cep);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
