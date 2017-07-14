@@ -2478,6 +2478,8 @@
       <relatedItems xmi:id="_--Q06WjREeeimPnIRR4row" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_--Q06mjREeeimPnIRR4row" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_--Q062jREeeimPnIRR4row" id="_6AQvgANoEeero_Zy7WQpnA - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_hXLzkGjXEeeimPnIRR4row" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hXLzkWjXEeeimPnIRR4row" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_jXmRoGdiEeeZQ5ZIWCcAlg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_jXmRoWdiEeeZQ5ZIWCcAlg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
