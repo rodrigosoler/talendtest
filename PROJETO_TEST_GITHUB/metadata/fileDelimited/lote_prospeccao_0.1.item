@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_6B5HMANoEeero_Zy7WQpnA" name="lote_prospeccao" dataPackage="_6B5HMQNoEeero_Zy7WQpnA" Server="Localhost 127.0.0.1" FilePath="C:/Edgard/arquivos_delimitados/lote_prospeccao.txt" Format="WINDOWS" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_6B5HMQNoEeero_Zy7WQpnA" name="default" dataManager="_6B5HMANoEeero_Zy7WQpnA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6B5HMgNoEeero_Zy7WQpnA" id="_wBdZgANnEeero_Zy7WQpnA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6B5HMwNoEeero_Zy7WQpnA" label="CPF_PADR" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6B5HNANoEeero_Zy7WQpnA" label="EMAIL_ENR" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

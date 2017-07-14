@@ -2466,6 +2466,19 @@
       <relatedItems xmi:id="_f3-d7GjHEeee2b4ubGzgzQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_f3-d7WjHEeee2b4ubGzgzQ" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_--Q04GjREeeimPnIRR4row">
+      <baseItem xmi:id="_--Q04WjREeeimPnIRR4row" id="_DMBUcANpEeero_Zy7WQpnA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_--Q04mjREeeimPnIRR4row" id="_tz3lQGisEee5Nd7KwzGgmw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_--Q042jREeeimPnIRR4row" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q05GjREeeimPnIRR4row" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q05WjREeeimPnIRR4row" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q05mjREeeimPnIRR4row" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q052jREeeimPnIRR4row" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q06GjREeeimPnIRR4row" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q06WjREeeimPnIRR4row" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q06mjREeeimPnIRR4row" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_--Q062jREeeimPnIRR4row" id="_6AQvgANoEeero_Zy7WQpnA - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_jXmRoGdiEeeZQ5ZIWCcAlg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_jXmRoWdiEeeZQ5ZIWCcAlg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_jXmRomdiEeeZQ5ZIWCcAlg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
