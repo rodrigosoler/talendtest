@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="&quot;O arquivo está em: C:\Edgard\arquivos_delimitados&quot;" name="ArquivoPath" prompt="ArquivoPath?" promptNeeded="false" type="id_String" value="&quot;file://SYSVISION-LTDA/Edgard/arquivos_delimitados/lote_prospeccao.txt&quot;"/>
+    <contextParameter comment="&quot;O arquivo está em: C:\Edgard\arquivos_delimitados&quot;" name="ArquivoPath" prompt="ArquivoPath?" promptNeeded="false" type="id_String" value="\\SYSVISION-LTDA\Edgard\arquivos_delimitados\lote_prospeccao.txt"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
