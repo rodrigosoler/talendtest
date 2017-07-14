@@ -232,7 +232,7 @@
     <metadata connector="FLOW" label="out" name="out_poc">
       <column comment="" key="false" length="20" name="nom_nome_completo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="" type="id_Long" originalLength="18" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="23" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="num_cep" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="21" usefulColumn="true"/>
     </metadata>
@@ -325,14 +325,14 @@
     <metadata connector="FLOW" label="out" name="tMysqlOutput_1">
       <column comment="" key="false" length="20" name="nom_nome_completo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="BIGINT" type="id_Long" originalLength="18" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="23" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="num_cep" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="21" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="out" name="REJECT">
       <column comment="" key="false" length="20" name="nom_nome_completo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="true" length="-1" name="num_cpf" nullable="true" pattern="" precision="-1" sourceType="BIGINT" type="id_Long" originalLength="18" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="23" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="dtc_data_nascimento" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="num_cep" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="dtc_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="21" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
