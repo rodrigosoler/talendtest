@@ -224,7 +224,7 @@
     <elementParameter field="TEXT" name="FILEMASK" value="&quot;lote_prospeccao.txt&quot;"/>
     <elementParameter field="CHECK" name="INCLUDE_SUBDIR" value="false"/>
     <elementParameter field="CHECK" name="CASE_SENSITIVE" value="true"/>
-    <elementParameter field="CHECK" name="INCLUDE_PRESENT" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDE_PRESENT" value="true"/>
     <elementParameter field="CLOSED_LIST" name="ACTION_ON" value="filecreated"/>
     <elementParameter field="CLOSED_LIST" name="THEN" value="continue"/>
     <elementParameter field="CHECK" name="WAIT_RELEASE" value="true"/>
