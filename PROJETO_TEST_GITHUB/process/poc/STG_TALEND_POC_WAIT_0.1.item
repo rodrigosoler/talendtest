@@ -422,7 +422,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWaitForFile_1" show="false"/>
     <elementParameter field="TEXT" name="WAIT" value="5"/>
     <elementParameter field="TEXT" name="MAX_ITERATIONS" value=""/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:\Edgard\arquivos_delimitados\&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:\Edgard\arquivos_delimitados&quot;"/>
     <elementParameter field="TEXT" name="FILEMASK" value="&quot;lote_prospeccao.txt&quot;"/>
     <elementParameter field="CHECK" name="INCLUDE_SUBDIR" value="false"/>
     <elementParameter field="CHECK" name="CASE_SENSITIVE" value="true"/>
