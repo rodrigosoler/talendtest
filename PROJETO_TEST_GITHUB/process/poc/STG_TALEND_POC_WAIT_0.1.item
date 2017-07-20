@@ -154,7 +154,7 @@
   </node>
   <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Edgard/arquivos_delimitados/CAD_MOSAIC_NOVO.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Edgard/arquivos_delimitados/lote_prospeccao.txt&quot;"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Edgard/TOS_BD-20161216_1026-V6.3.1/workspace/delete_folder&quot;" show="false"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;C:/Edgard/TOS_BD-20161216_1026-V6.3.1/workspace/delete_folder or delete_file&quot;" show="false"/>
     <elementParameter field="CHECK" name="FAILON" value="true"/>
