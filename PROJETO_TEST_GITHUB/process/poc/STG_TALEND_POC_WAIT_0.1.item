@@ -488,7 +488,7 @@
   </connection>
   <note opaque="true" posX="384" posY="64" sizeHeight="96" sizeWidth="353" text="Inicia o processo, abre uma conexão com o banco."/>
   <note opaque="true" posX="32" posY="192" sizeHeight="128" sizeWidth="385" text="Verificação de existencia de arquivo, se não tem, aguarda.&#xD;&#xA;Possibilidade de padronização dos dados.&#xD;&#xA;Armazenamento dos dados no banco MySQL.&#xD;&#xA;Backup do arquivo, com versionamento por data e hora.&#xD;&#xA;Exclusão do arquivo."/>
-  <note opaque="true" posX="384" posY="448" sizeHeight="96" sizeWidth="353" text="Encerra o processo, fecha a conexão com o banco"/>
+  <note opaque="true" posX="384" posY="544" sizeHeight="96" sizeWidth="353" text="Encerra o processo, fecha a conexão com o banco"/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
